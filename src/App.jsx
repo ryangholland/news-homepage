@@ -54,13 +54,47 @@ function App() {
         </div>
       </section>
 
-      <section>
-        <div className="flex">
-          <img src="/image-retro-pcs.jpg" alt="Retro PCs" />
-          <div>
-            <h2>01</h2>
-            <h3>Reviving Retro PCs</h3>
-            <p>What happens when old PCs are given modern upgrades?</p>
+      <section className="grid gap-6">
+        <div className="flex gap-6">
+          <img
+            src="/image-retro-pcs.jpg"
+            alt="Retro PCs"
+            className="w-24 object-cover"
+          />
+          <div className="grid">
+            <h2 className="text-grayishBlue text-3xl font-bold">01</h2>
+            <h3 className="font-bold text-lg">Reviving Retro PCs</h3>
+            <p className="text-darkGrayishBlue text-sm">
+              What happens when old PCs are given modern upgrades?
+            </p>
+          </div>
+        </div>
+        <div className="flex gap-6">
+          <img
+            src="/image-top-laptops.jpg"
+            alt="Retro PCs"
+            className="w-24 object-cover"
+          />
+          <div className="grid">
+            <h2 className="text-grayishBlue text-3xl font-bold">02</h2>
+            <h3 className="font-bold text-lg">Top 10 Laptops of 2022</h3>
+            <p className="text-darkGrayishBlue text-sm">
+              Our best picks for various needs and budgets.
+            </p>
+          </div>
+        </div>
+        <div className="flex gap-6">
+          <img
+            src="/image-gaming-growth.jpg"
+            alt="Retro PCs"
+            className="w-24 object-cover"
+          />
+          <div className="grid">
+            <h2 className="text-grayishBlue text-3xl font-bold">03</h2>
+            <h3 className="font-bold text-lg">The Growth of Gaming</h3>
+            <p className="text-darkGrayishBlue text-sm">
+              How the pandemic has sparked fresh opportunities.
+            </p>
           </div>
         </div>
       </section>

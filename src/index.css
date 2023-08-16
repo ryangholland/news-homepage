@@ -22,3 +22,12 @@ a {
   font-family: "Inter";
   src: url("../public/Inter-VariableFont_slnt\,wght.ttf");
 }
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
