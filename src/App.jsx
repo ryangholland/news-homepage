@@ -62,7 +62,7 @@ function App() {
         </div>
       </section>
 
-      <section className="grid gap-6">
+      <section className="flex flex-col gap-6 lg:grid lg:grid-cols-[1fr_1fr_1fr] lg:my-12">
         <div className="flex gap-6">
           <img
             src="/image-retro-pcs.jpg"
