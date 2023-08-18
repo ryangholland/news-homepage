@@ -1,15 +1,17 @@
 import "./App.css";
+import Navbar from "./Navbar";
 
 function App() {
   return (
-    <main className="bg-offWhite p-6">
-      <section className="flex items-center justify-between">
+    <main className="bg-offWhite p-6 xl:max-w-[1280px] sm:py-16 sm:px-10">
+      <section className="flex items-center justify-between ">
         <h1 className="text-5xl font-bold font-serif">W.</h1>
-        <img src="/icon-menu.svg" alt="Menu" />
+        <Navbar />
       </section>
 
       <section className="my-6 grid gap-4">
-        <img src="/image-web-3-mobile.jpg" alt="" />
+        <img src="/image-web-3-mobile.jpg" alt="" className="sm:hidden" />
+        <img src="/image-web-3-desktop.jpg" alt="" className="hidden sm:block" />
 
         <h1 className="text-4xl font-extrabold">
           The Bright Future of Web 3.0?
