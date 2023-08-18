@@ -1,8 +1,8 @@
 function Navbar() {
   return (
     <div>
-      <img src="/icon-menu.svg" alt="Menu" className="sm:hidden"/>
-      <nav className="text-darkGrayishBlue hidden sm:block">
+      <img src="/icon-menu.svg" alt="Menu" className="md:hidden"/>
+      <nav className="text-darkGrayishBlue hidden md:block">
         <ul className="flex gap-8">
           <li>
             <a href="#">Home</a>

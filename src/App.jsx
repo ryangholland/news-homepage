@@ -3,29 +3,35 @@ import Navbar from "./Navbar";
 
 function App() {
   return (
-    <main className="bg-offWhite p-6 xl:max-w-[1280px] sm:py-16 sm:px-10">
+    <main className="bg-offWhite p-6 xl:max-w-[1280px] md:py-16 md:px-10">
       <section className="flex items-center justify-between ">
         <h1 className="text-5xl font-bold font-serif">W.</h1>
         <Navbar />
       </section>
 
-      <section className="my-6 grid gap-4">
-        <img src="/image-web-3-mobile.jpg" alt="" className="sm:hidden" />
-        <img src="/image-web-3-desktop.jpg" alt="" className="hidden sm:block" />
+      <section className="flex flex-col my-6 md:grid gap-4 md:grid-cols-3 md:grid-rows-[1fr_200px]">
+        <img src="/image-web-3-mobile.jpg" alt="" className="md:hidden" />
+        <img
+          src="/image-web-3-desktop.jpg"
+          alt=""
+          className="hidden md:block md:col-span-2 self-stretch"
+        />
 
-        <h1 className="text-4xl font-extrabold">
+        <h1 className="text-4xl font-extrabold md:col-start-1 self-center w-4/5">
           The Bright Future of Web 3.0?
         </h1>
-        <p className="text-darkGrayishBlue">
-          We dive into the next evolution of the web that claims to put the
-          power of the platforms back into the hands of the people. But is it
-          really fulfilling its promise?
-        </p>
-        <button className="bg-softRed text-offWhite font-bold justify-self-start py-4 px-8 uppercase tracking-[.35em] text-xs">
-          Read more
-        </button>
+        <div className="grid gap-4 lg:p-4">
+          <p className="text-darkGrayishBlue">
+            We dive into the next evolution of the web that claims to put the
+            power of the platforms back into the hands of the people. But is it
+            really fulfilling its promise?
+          </p>
+          <button className="bg-softRed text-offWhite font-bold justify-self-start py-4 px-8 uppercase tracking-[.35em] text-xs md:py-2 md:px-4">
+            Read more
+          </button>
+        </div>
 
-        <div className="bg-veryDarkBlue text-offWhite p-5 my-6 grid gap-5">
+        <div className="bg-veryDarkBlue text-offWhite p-5 my-6 grid gap-5 col-start-3 row-start-1 row-span-2 md:m-0">
           <h2 className="font-bold text-softOrange text-3xl">New</h2>
           <div>
             <h3 className="font-bold text-lg mb-1">
