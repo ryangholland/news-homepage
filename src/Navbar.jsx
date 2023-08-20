@@ -14,19 +14,19 @@ function Navbar() {
       <nav className="text-darkGrayishBlue hidden md:block">
         <ul className="flex gap-8">
           <li>
-            <a href="#">Home</a>
+            <a href="#" className="hover:text-softOrange">Home</a>
           </li>
           <li>
-            <a href="#">New</a>
+            <a href="#" className="hover:text-softOrange">New</a>
           </li>
           <li>
-            <a href="#">Popular</a>
+            <a href="#" className="hover:text-softOrange">Popular</a>
           </li>
           <li>
-            <a href="#">Trending</a>
+            <a href="#" className="hover:text-softOrange">Trending</a>
           </li>
           <li>
-            <a href="#">Categories</a>
+            <a href="#" className="hover:text-softOrange">Categories</a>
           </li>
         </ul>
       </nav>

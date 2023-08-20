@@ -26,7 +26,7 @@ function App() {
             power of the platforms back into the hands of the people. But is it
             really fulfilling its promise?
           </p>
-          <button className="bg-softRed text-offWhite font-bold justify-self-start py-4 px-8 uppercase tracking-[.35em] text-xs md:py-2 md:px-4">
+          <button className="bg-softRed text-offWhite font-bold justify-self-start py-4 px-8 uppercase tracking-[.35em] text-xs md:py-2 md:px-4 hover:bg-veryDarkBlue">
             Read more
           </button>
         </div>
@@ -35,7 +35,9 @@ function App() {
           <h2 className="font-bold text-softOrange text-3xl">New</h2>
           <div>
             <h3 className="font-bold text-lg mb-1">
-              Hydrogen VS Electric Cars
+              <a href="#" className="hover:text-softOrange">
+                Hydrogen VS Electric Cars
+              </a>
             </h3>
             <p className="text-grayishBlue text-sm">
               Will hydrogen-fueled cars ever catch up to EVs?
@@ -44,7 +46,9 @@ function App() {
           <hr className="border-grayishBlue" />
           <div>
             <h3 className="font-bold text-lg mb-1">
-              The Downsides of AI Artistry
+              <a href="#" className="hover:text-softOrange">
+                The Downsides of AI Artistry
+              </a>
             </h3>
             <p className="text-grayishBlue text-sm">
               What are the possible adverse effects of on-demand AI image
@@ -53,7 +57,11 @@ function App() {
           </div>
           <hr className="border-grayishBlue" />
           <div>
-            <h3 className="font-bold text-lg mb-1">Is VC Funding Drying Up?</h3>
+            <h3 className="font-bold text-lg mb-1">
+              <a href="#" className="hover:text-softOrange">
+                Is VC Funding Drying Up?
+              </a>
+            </h3>
             <p className="text-grayishBlue text-sm">
               Private funding by VC firms is down 50% YOY. We take a look at
               what that means.
@@ -71,7 +79,11 @@ function App() {
           />
           <div className="grid">
             <h2 className="text-grayishBlue text-3xl font-bold">01</h2>
-            <h3 className="font-bold text-lg">Reviving Retro PCs</h3>
+            <h3 className="font-bold text-lg">
+              <a href="#" className="hover:text-softOrange">
+                Reviving Retro PCs
+              </a>
+            </h3>
             <p className="text-darkGrayishBlue text-sm">
               What happens when old PCs are given modern upgrades?
             </p>
@@ -85,7 +97,11 @@ function App() {
           />
           <div className="grid">
             <h2 className="text-grayishBlue text-3xl font-bold">02</h2>
-            <h3 className="font-bold text-lg">Top 10 Laptops of 2022</h3>
+            <h3 className="font-bold text-lg">
+              <a href="#" className="hover:text-softOrange">
+                Top 10 Laptops of 2022
+              </a>
+            </h3>
             <p className="text-darkGrayishBlue text-sm">
               Our best picks for various needs and budgets.
             </p>
@@ -99,7 +115,11 @@ function App() {
           />
           <div className="grid">
             <h2 className="text-grayishBlue text-3xl font-bold">03</h2>
-            <h3 className="font-bold text-lg">The Growth of Gaming</h3>
+            <h3 className="font-bold text-lg">
+              <a href="#" className="hover:text-softOrange">
+                The Growth of Gaming
+              </a>
+            </h3>
             <p className="text-darkGrayishBlue text-sm">
               How the pandemic has sparked fresh opportunities.
             </p>
