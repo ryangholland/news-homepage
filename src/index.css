@@ -23,7 +23,7 @@ a {
 
 @font-face {
   font-family: "Inter";
-  src: url("../public/Inter-VariableFont_slnt\,wght.ttf");
+  src: url("/Inter-VariableFont_slnt\,wght.ttf");
 }
 
 img,
@@ -33,4 +33,31 @@ canvas,
 svg {
   display: block;
   max-width: 100%;
+}
+
+.sidebar-open {
+  -webkit-animation: slide-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(400px);
+    transform: translateX(400px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(400px);
+    transform: translateX(400px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
 }

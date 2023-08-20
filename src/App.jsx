@@ -17,7 +17,7 @@ function App() {
           className="hidden md:block md:col-span-2 self-stretch"
         />
 
-        <h1 className="text-4xl font-extrabold md:col-start-1 self-center w-4/5">
+        <h1 className="text-4xl font-extrabold md:col-start-1 md:self-center w-4/5">
           The Bright Future of Web 3.0?
         </h1>
         <div className="grid gap-4 lg:p-4">
